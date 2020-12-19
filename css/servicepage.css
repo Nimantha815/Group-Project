@@ -1,0 +1,79 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background:  linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 40%,rgba(0,0,0,0) 100%), url(https://st2.depositphotos.com/3580719/9492/v/950/depositphotos_94929442-stock-illustration-seamless-background-with-simple-hand.jpg) no-repeat right bottom;
+}
+
+.projects{
+  padding: 100px 0;
+}
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.p-card{
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.card_img{
+  height: 300px;
+}
+
+.landing_img7{
+  background: url(../serviceicon/man-icon-vector-260nw-1040084344.webp) no-repeat center;
+  background-size: cover;
+}
+
+.landing_img8{
+  background: url(../serviceicon/order-red-stamp-text-white-44561786.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.landing_img9{
+  background: url(../serviceicon/215-2154839_transparent-payment-icon-png.png) no-repeat center;
+  background-size: cover;
+}
+
+.landing_img1{
+  background: url(../serviceicon/user-icon-vector-260nw-393536320.webp) no-repeat center;
+  background-size: cover;
+}
+.landing_img10{
+  background: url(../serviceicon/illustrated-delivery-service-with-masks-concept_23-2148493019.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.pcard_info{
+  padding: 19px 13px;
+}
+
+.card-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 10px;
+}

@@ -1,0 +1,174 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+
+
+.pinthure{
+	height: 600px;
+	display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin-bottom: 40px;
+}
+.pinthure .img1{
+	/*margin: 10px;*/
+	/*padding: 20px;*/
+		/*overflow: hidden;*/
+
+	grid-row: 1 /span 4;
+  grid-column: 3/span 5;
+
+}.pinthure .img2{
+	/*margin: 10px;*/
+	/*padding: 20px;*/
+		
+	
+	grid-row: 1/span 2;
+  grid-column: 8/span 8;
+
+}.pinthure .img3{
+	/*margin: 10px;*/
+	/*padding: 20px;*/
+		/*overflow: hidden;*/
+
+	grid-row: 3 /span 2;
+  grid-column: 8/span 4;
+
+}.pinthure .img4{
+	/*margin: 10px;*/
+	/*padding: 20px;*/
+		/*overflow: hidden;*/
+
+	grid-row: 3 /span 2;
+  grid-column: 12/span 4;
+
+}
+.pinthure .img1 img{
+		object-fit: cover;
+		width: 100%;
+		height: 600px;
+
+}.pinthure .img2 img{
+		object-fit: cover;
+		width: 100%;
+		height: 290px;
+
+}.pinthure .img3 img{
+		object-fit: cover;
+		width: 100%;
+		height: 310px;
+
+}.pinthure .img4 img{
+		object-fit: cover;
+		width: 100%;
+		height: 290px;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.suwari {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+ 
+  width: 100%;
+  color: #ffffff;
+  /*padding: 20px;*/
+  text-align: center;
+  /*padding: 10px;*/
+  font-size: 16px;
+
+  background-color: #fff;
+}
+figure.suwari *,
+figure.suwari *:before,
+figure.suwari *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+figure.suwari img {
+  width: 100%;
+  margin: 20px; 
+  backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.9;
+}
+figure.suwari .title {
+  position: absolute;
+  top: 58%;
+  left: 25px;
+  padding: 5px 10px 10px;
+}
+
+figure.suwari h2,
+figure.suwari h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.suwari h2 {
+  font-weight: 400;
+}
+figure.suwari h4 {
+  display: block;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  color: #000000;
+}
+figure.suwari figcaption {
+  position: absolute;
+  bottom: 42%;
+  left: 25px;
+  text-align: left;
+  opacity: 0;
+  padding: 5px 60px 5px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+figure.suwari figcaption p {
+  margin: 0;
+}
+figure.suwari a {
+  position: absolute;
+  /*padding: 20px;*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.suwari:hover img,
+figure.suwari.hover img {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.8;
+}
+figure.suwari:hover .title:before,
+figure.suwari.hover .title:before,
+figure.suwari:hover .title:after,
+figure.suwari.hover .title:after,
+figure.suwari:hover .title div:before,
+figure.suwari.hover .title div:before,
+figure.suwari:hover .title div:after,
+figure.suwari.hover .title div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+figure.suwari:hover .title:before,
+figure.suwari.hover .title:before,
+figure.suwari:hover .title:after,
+figure.suwari.hover .title:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+figure.suwari:hover figcaption,
+figure.suwari.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}

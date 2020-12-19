@@ -1,0 +1,143 @@
+  .sc{
+    font-size: 40px;
+    /*font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;*/
+
+  }
+  #scr {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 30px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(1, 19, 121);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0;
+  
+}
+
+#scr:hover {
+  background-color: rgb(0, 0, 0);
+  border-radius: none;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 25px;
+}
+.sear {
+	flex-basis: 33.3%;
+	margin: auto;
+	text-align: center;
+}
+.headericon i{
+	padding-left: 30px;
+	font-size: 20px;
+}
+.searchbar {
+    float: left;
+    /*background-color: #fff;*/
+    letter-spacing: 1px;
+    color: #000;
+    padding: 6px 10px;
+    width: 90px;
+    border: none;
+    margin: 2px 30px;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: white solid 2px;
+    transition: 0.3s;
+}
+
+.searchbar::placeholder {
+    color: #262626;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    /* transition: 0.2s; */
+}
+
+.searchbar:focus {
+    width: 250px;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+    /* Stops the input box from inheriting the styling from the inputs on the request form */
+    border-bottom: white solid 2px;
+    outline: none;
+}
+
+.press {
+    cursor: pointer;
+    color: #262626;
+    text-decoration: none !important;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    /*padding: 2px 0;    */
+}
+
+#nave{
+    background-color: #ffF;
+    
+}
+
+#nave ul{
+    position: relative;
+    list-style: none;
+}
+#nave li{
+    display: inline-block;
+}
+#nave a{
+    text-decoration: none;
+    padding: 12px 0;
+    margin-left: 50px;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: 'Open sans', sans-serif;  
+    font-size: 18px;
+
+}
+#nave ul li a:hover{
+    /*background-color: #fff;*/
+    color: #1cc0a0;
+    border-bottom: 2px solid #1cc0a0;
+}
+/* drop down */ 
+#nave .dropdown{
+    position: absolute;
+    margin-top: 7px;
+    background-color: #fff;
+    display: none;
+    z-index: 30;
+}
+#nave .dropdown li{
+    display: block;
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 5px;
+}
+.dropdown li:hover{
+    /*background-color: #fff;*/
+    /* color:  */
+}
+
+#nave li:hover > .dropdown, li:hover{
+    display: block;
+}
