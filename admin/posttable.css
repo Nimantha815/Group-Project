@@ -1,0 +1,182 @@
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #be988c, #d1ab9e, #c7ae95, #aaa186);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(165, 6, 6);
+    padding: 30px 0;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 10px 70px 70px;
+    /* box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 ); */
+}
+
+.fl-table {
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: rgb(202, 197, 197);
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #ffffff;
+    font-size: 22px;
+}
+
+.fl-table thead th {
+    color: #000000;
+    background: #ffffff;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #000000;
+    background: #ffffff;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally >";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+.btn-c {
+    align-self: center;
+    justify-self: end;
+    width: 50%;
+    position: absolute;
+    right: 20%;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    border-style: solid;
+    border-color:black;
+    background-color: darkblue;
+    
+}
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+    background-color:#ffc477;
+    border-radius:6px;
+    border:1px solid #eeb44f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+    background-color:#fb9e25;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
