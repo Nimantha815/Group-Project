@@ -1,0 +1,139 @@
+
+
+body {
+    /* background: rgb(177, 241, 220); */
+    height: 4000px;
+}
+
+.aboutpad {
+    left: 90px;
+    top: 440px;
+    width: 650px;
+    position: absolute;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(177, 241, 220); */
+}
+
+.coverpadx {
+    left: auto;
+    top: auto;
+    height: auto;
+    width: auto;
+    position: absolute;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.profilepic {
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    top: 255px;
+    left: 110px;
+    background: rgb(250, 246, 246);
+    position: absolute;
+    border-radius: 2px/2px;
+}
+
+.profilepicx {
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    top: 255px;
+    left: 110px;
+    position: absolute;
+    border-radius: 2px/2px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+
+.username {
+    left: 275px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(15, 14, 14);
+    top: 310px;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+}
+
+.box11 {
+    top: 375px;
+    left: 265px;
+    padding: 12px;
+    background: rgb(236, 240, 7);
+    position: absolute;
+    width: 100px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    height: 16px;
+    font-size: 16px;
+    font-family: verdana;
+    cursor: pointer;
+    color: #110c0c;
+}
+
+.box12 {
+    top: 375px;
+    left: 400px;
+    padding: 12px;
+    background: rgb(236, 240, 7);
+    position: absolute;
+    width: 87px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    height: 16px;
+    font-size: 16px;
+    font-family: verdana;
+    cursor: pointer;
+    color: #131212;
+}
+
+.box13 {
+    top: 375px;
+    left: 525px;
+    padding: 12px;
+    background: rgb(236, 240, 7);
+    position: absolute;
+    width: 72px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    height: 16px;
+    font-size: 16px;
+    font-family: verdana;
+    cursor: pointer;
+    color: #0c0b0b;
+}
+.box14 {
+    top: 375px;
+    left: 525px;
+    padding: 12px;
+    background: rgb(236, 240, 7);
+    position: absolute;
+    width: 72px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    height: 16px;
+    font-size: 16px;
+    font-family: verdana;
+    cursor: pointer;
+    color: #0c0b0b;
+}
+
+.box11:hover {
+    background: #0be73b;
+}
+
+.box12:hover,
+.box12:active {
+    background: #0be73b;
+}
+
+.box13:hover {
+    background: #0be73b;
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(../webfonts/fa-regular-400.eot);
+    src: url(../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../webfonts/fa-regular-400.woff2) format("woff2"), url(../webfonts/fa-regular-400.woff) format("woff"), url(../webfonts/fa-regular-400.ttf) format("truetype"), url(../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}
