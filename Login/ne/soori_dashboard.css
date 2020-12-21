@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #E62E04;
+    width: 100%;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+nav ul li a,
+nav ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    width: 95%;
+    float: left;
+}
+
+.content .left {
+    width: 20%;
+    float: left;
+}
+
+.content .left .list {
+    margin: 25px;
+    width: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+}
+
+.content .left .list h3 {
+    margin: -5px 0 5px;
+}
+
+.content .left .list p {
+    margin: 10px 0;
+}
+
+.content .left .list ul {
+    list-style: none;
+}
+
+.content .left .list ul li {
+    line-height: 25px;
+}
+
+.content .left .list ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content .left .list ul li a:hover {
+    color: red;
+}
+
+.content .left .list ul li a span {
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.content .right {
+    width: 80%;
+    float: left;
+}
+
+.content .right header {
+    margin: 25px;
+    background-color: #fff;
+    height: 100px;
+    position: relative;
+    border: 1px solid #E9E9E9;
+}
+
+.content .right header img {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.content .right header .account {
+    display: inline-block;
+}
+
+.content .right header .account h2 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.content .right header .account>span {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.content .right header .account ul {
+    list-style: none;
+}
+
+.content .right header .account ul li {
+    color: #999;
+    float: left;
+    line-height: 30px;
+}
+
+.content .right header .account ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.content .right header .account ul li i {
+    margin-left: 20px;
+}
+
+.content .right header .summary {
+    background-color: #FAFAFA;
+    padding: 10px 0;
+    border: 1px solid #E9E9E9;
+}
+
+.content .right header .summary ul {
+    list-style: none;
+    padding: 10px 0 40px 0;
+    margin-top: -8px;
+}
+
+.content .right header .summary ul li {
+    float: left;
+    border-right: 1px solid #ddd;
+    width: 16.65%;
+    background-color: #fafafa;
+}
+
+.content .right header .summary ul li:last-child {
+    border-right: none;
+}
+
+.content .right header .summary ul li span {
+    display: block;
+}
+
+.content .right header .items {
+    background-color: #fff;
+    margin-top: 25px;
+    border: 1px solid #E9E9E9;
+}
+
+.content .right header .items h3 {
+    padding-left: 20px;
+}
+
+.content .right header .items .data {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #F2F2F2;
+    display: inline-block;
+}
+
+.content .right header .items .data>img {
+    width: 8%;
+    border: 2px solid #D7D7D7;
+    border-radius: 0;
+    margin-left: 20px;
+    float: left;
+}
+
+.content .right header .items .data p {
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content .right header .items p span {
+    color: #89828E;
+}
+
+.content .right header .items .details {
+    margin-right: 2%;
+    cursor: pointer;
+    float: right;
+}
+
+.content .right header .items .details:hover {
+    color: #FF471D;
+    text-decoration: underline
+}
+
+.content .right header .items .showmore {
+    margin: 2% 0;
+    text-align: center
+}
+
+.content .right header .items .showmore a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px
+}
+
+.content .right header .items .showmore a:hover {
+    color: #FF471D;
+}
+
+.content .right header .items .showmore a i {
+    margin-left: 1%;
+    font-size: 12px
+}
+
+.float-icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.float-icons span {
+    display: block;
+    background-color: #999;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
